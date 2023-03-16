@@ -7,10 +7,33 @@
 
     .texto {
         color: $primary-color;
-        
+
         h2 {
             margin: 2rem;
             font-size: $text-size / 1.7;
+        }
+    }
+
+    .input {
+        margin: 0 auto;
+        width: 575px;
+        border-radius: 20px;
+        border: 4px solid white;
+        background: white;
+
+        input {
+            border-radius: 20px;
+            height: 40px;
+            border: none;
+            width: 540px;
+            outline: none;
+            text-align: center;
+            font-size: 26px;
+        }
+
+        &:hover, &:focus-within {
+            box-shadow: 1px 1px 8px 1px $primary-color;
+            outline: none;
         }
     }
 }
