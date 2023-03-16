@@ -1,0 +1,16 @@
+@import '../abstract/variables';
+
+#cupom {
+    background-color: $tertiary-color;
+    padding: 4rem;
+    text-align: center;
+
+    .texto {
+        color: $primary-color;
+        
+        h2 {
+            margin: 2rem;
+            font-size: $text-size / 1.7;
+        }
+    }
+}
