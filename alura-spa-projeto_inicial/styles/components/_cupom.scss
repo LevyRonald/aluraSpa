@@ -36,4 +36,27 @@
             outline: none;
         }
     }
+
+    button {
+        text-transform: uppercase;
+        margin-top: .75rem;
+        outline: none;
+        height: 40px;
+        text-align: center;
+        width: 130px;
+        background-color: $primary-color;
+        color: $secondary-color;
+        letter-spacing: 1px;
+        font-size: 12px;
+        font-weight: bold;
+        cursor: pointer;
+        border: 2px $primary-color;
+        border-radius: 40px;
+
+        &:hover {
+            color: $primary-color;
+            background-color: $secondary-color;
+            border-color: $tertiary-color;
+        }
+    }
 }
